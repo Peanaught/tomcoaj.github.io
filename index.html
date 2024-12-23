@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>My Personal Porfolio</title>
+</head>
+
+<body>
+
+    <!-- Dikara kampi ang sa Header Section-->>
+    <header class="header">
+        <a href="#home" class="logo">AJ Tomco</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">PROJECTS</a>
+            <a href="#testimonial">BACKGROUND</a>
+            <a href="#contact">CONTACTS</a>
+        </nav>
+    </header>
+    <!--home section-->
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="assets/profile1.jpg" alt="Profile Image">
+        </div>
+
+        <div class="home-content">
+            <h3>Hello, My Name is</h3>
+            <h1>AJ C. Tomco</h1>
+            <h3>And I'm a Aspiring <span class="multiple-text"></span></h3>
+            <p>A Computer Science College Student of Garcia College of Technology </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/Peanaugh"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/aj.tomco.2024"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/ajtomco2021"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="assets/CV.pdf" class="btn" download>Download CV</a>
+
+        </div>
+    </section>
+
+    <!-- Dikara kampi ang sa About Section-->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I'm a <span>Computer Science Student </span></h3>
+            <p>I am passionate about web development, and creating engaging, user-friendly websites. My skills include HTML, CSS, JavaScript, and various front-end frameworks. I'm always looking to learn and grow in the field.</p>
+    
+            <!-- Initially visible text -->
+            <p id="initial-text">I am passionate about web development and UI/UX design, and I am always learning new technologies.</p>
+    
+            <!-- Hidden content that will be shown when the button is clicked -->
+            <div id="more-info" style="display: none;">
+                <p>This is additional information about me. I love computing theories, building beautiful interfaces, and working on challenging projects. I have worked with some projects to design and implement responsive websites and applications that meet user needs and I have experience in Game Development.</p>
+            </div>
+    
+            <!-- Read More button -->
+            <a href="#" class="btn" id="read-more-btn">Read More</a>
+        </div>
+        <div class="about-img">
+            <img src="assets/profile.jpg" alt="About Image">
+        </div>
+    </section>
+    
+    
+    
+    
+
+    <!-- Dikara kampi ang sa Services Section-->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+    
+            <div class="services-box">
+                <i class="bx bx-code"></i>
+                <h3>Web Development</h3>
+                <p class="short-text">about web dev</p>
+                <p class="full-text" style="display: none;">This is more detailed information about web development, including creating websites, web applications, and the technologies used such as HTML, CSS, JavaScript, and frameworks like React, Angular, etc.</p>
+                <a href="#" class="btn toggle-button">Read More</a>
+            </div>
+    
+            <div class="services-box">
+                <i class="bx bx-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p class="short-text">about UI/UX design</p>
+                <p class="full-text" style="display: none;">This is more detailed information about UI/UX design, focusing on user experience, interface design, prototyping, and the tools like Figma and Sketch used in the design process.</p>
+                <a href="#" class="btn toggle-button">Read More</a>
+            </div>
+    
+            <div class="services-box">
+                <i class="bx bxl-android"></i>
+                <h3>Game Development</h3>
+                <p class="short-text">about game dev</p>
+                <p class="full-text" style="display: none;">This is more detailed information about game development, including designing and building games, game engines like Godot, and the programming languages used such as C# and Python.</p>
+                <a href="#" class="btn toggle-button">Read More</a>
+            </div>
+    
+        </div>
+    </section>
+    
+
+    <!-- Background section-->
+
+    <section class="testimonial" id="testimonial">
+        <div class="testimonial-box">
+            <h2 class="heading">Education</h2>
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="assets/gct.png" alt="">
+                    <h2>Garcia College of Technology</h2>
+                    <p>2021-2025 <br> 
+                        Bachelor of Science in Computer Science
+                        GARCIA COLLEGE OF TECHNOLOGY
+                        Osmeña Ave. Kalibo, Aklan
+                    </p>
+                    <!-- Find School Button -->
+                    <a href="https://www.gct.edu.ph" class="btn">Find School</a>
+                </div>
+    
+                <div class="testimonial-item">
+                    <img src="assets/tnhs.jpg" alt="">
+                    <h2>Tigbauan National Highschool</h2>
+                    <p>2019-2021<br> 
+                        Science, Technology, Engineering, and Mathematics (STEM)
+                        TIGBAUAN NATIONAL HIGH SCHOOL
+                        Tigbauan, Iloilo
+                    </p>
+                    <!-- Find School Button -->
+                    <a href="https://www.facebook.com/p/Tigbauan-NHS-Senior-High-School-Iloilo-100054347028763/" class="btn">Find School</a>
+                </div>
+    
+                <div class="testimonial-item">
+                    <img src="assets/kes.jpg" alt="">
+                    <h2>Kalibo Elementary School</h2>
+                    <p>2010-2015 <br>
+                        KALIBO ELEMENTARY SCHOOL
+                        Kalibo, Aklan
+                    </p>
+                    <!-- Find School Button -->
+                    <a href="https://www.facebook.com/p/Kalibo-Elementary-School-100023827565115/" class="btn">Find School</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+        
+            <form action="https://formspree.io/f/xeooqgrd" method="POST">
+                <div class="input-box">
+                    <input type="text" name="full_name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="phone" placeholder="Phone Number" required>
+                    <input type="text" name="subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+        
+
+    <!--Dito ang Footer Section-->
+
+
+    <footer class="footer">
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/Peanaugh"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/aj.tomco.2024"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/ajtomco2021"><i class='bx bxl-instagram'></i></a>
+    
+            </div>
+        <p class="copyright">
+            &copy;AJ Tomco
+        </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+
+</body>
+
+</html>
